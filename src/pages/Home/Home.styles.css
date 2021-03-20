@@ -1,8 +1,19 @@
-.homepage {
-  text-align: center;
+.main-content {
+  margin-top: 8.4rem;
 }
 
-.homepage h1 {
-  font-size: 3rem;
-  letter-spacing: -2px;
+@media only screen and (max-width: 56.25em) {
+  .main-content {
+    margin-top: 16.4rem;
+  }
+}
+
+.section-cards {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 8rem 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }

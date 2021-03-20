@@ -1,9 +1,17 @@
 import React from 'react';
 
+import Header from '../Header';
+import Footer from '../Footer';
 import './Layout.styles.css';
 
 function Layout({ children }) {
-  return <main className="container">{children}</main>;
+  return (
+    <>
+      <Header />
+      <main className="container">{children}</main>;
+      <Footer />
+    </>  
+  );
 }
 
 export default Layout;
