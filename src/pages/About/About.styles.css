@@ -1,0 +1,21 @@
+.section-about {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__title {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+.about__description {
+  font-size: 2rem;
+}
+
+.about__description a {
+  color: var(--color-red);
+  text-decoration: none;
+}
